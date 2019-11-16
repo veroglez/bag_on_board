@@ -2,9 +2,8 @@ import L10N from './l10n';
 
 const KEYS = [
   'ADD',
-  'QUANTITY',
-  'FINALIZE',
-  'TOTAL',
+  'MINUS',
+  'PLUS',
 ];
 
 describe('L10N', () => {

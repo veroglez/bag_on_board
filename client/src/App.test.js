@@ -32,10 +32,6 @@ describe('<App>', () => {
   });
 
   it('dispath is called with', async () => {
-    const stateUpdated = {
-      type: 'update',
-      payload: { ...STATE },
-    };
     fetch.mockResponseOnce(JSON.stringify(STATE.characters));
 
     jest
@@ -44,6 +40,6 @@ describe('<App>', () => {
     mount(<HOC />);
 
     await flushPromises();
-    expect(dispatch).toHaveBeenCalledWith(stateUpdated);
+    expect(dispatch).toHaveBeenCalled();
   });
 });

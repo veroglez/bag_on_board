@@ -20,7 +20,6 @@ const onFetch = async ({ dispatch }) => {
 
 const App = () => {
   const [state, dispatch] = useStateValue();
-  const { l10n } = state;
 
   useEffect(() => { onFetch({ dispatch }); }, []);
   return (
@@ -31,13 +30,13 @@ const App = () => {
           <Route
             exact
             path="/"
-            render={({ match, location, history }) => (
+            render={() => (
               <CardList cards={state.cards} />
             )}
           />
           <Route
             path="/new"
-            render={({ match, location }) => (
+            render={() => (
               <Adder />
             )}
           />

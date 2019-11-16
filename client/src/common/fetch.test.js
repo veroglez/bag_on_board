@@ -7,7 +7,6 @@ const service = `characters/${hash}`;
 const endpoint = `http://localhost:3000/${service}`;
 
 describe('fetch()', () => {
-
   beforeEach(() => {
     fetch.resetMocks();
     fetch.mockResponseOnce(JSON.stringify({ data: 'success' }));

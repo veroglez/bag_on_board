@@ -1,9 +1,8 @@
 import React from 'react';
 import { bool, func, string } from 'prop-types';
-// import mix from '../../common/mix';
 import styles from './Button.module.scss';
 
-const Button = ({ disabled, id, onClick, text, ...inherit }) => (
+const Button = ({ disabled, id, onClick, text }) => (
   <button
     id={id}
     type="submit"
@@ -18,7 +17,6 @@ const Button = ({ disabled, id, onClick, text, ...inherit }) => (
 Button.propTypes = {
   id: string,
   disabled: bool,
-  icon: bool,
   onClick: func,
   text: string,
 };
@@ -26,7 +24,6 @@ Button.propTypes = {
 Button.defaultProps = {
   id: undefined,
   disabled: false,
-  icon: undefined,
   onClick: undefined,
   text: undefined,
 };

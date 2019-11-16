@@ -12,7 +12,6 @@ const onChange = (event, dispatch, { form }) => {
 
 const Counter = () => {
   const [state, dispatch] = useStateValue();
-  const { l10n } = state;
 
   return (
     <input
