@@ -19,21 +19,19 @@ const Counter = () => {
 
   return (
     <div className={style.container}>
-      <div className={style.content}>
-        <Button
-          id="buttonMinus"
-          text={l10n.MINUS}
-          onClick={() => form.bags >= 0 && managePassenger(dispatch, state, '-')}
-          disabled={form.bags === 0}
-        />
-        <input type="number" value={0} onChange={() => false} className={style.counter} />
-        <Button
-          id="buttonPlus"
-          text={l10n.PLUS}
-          onClick={() => managePassenger(dispatch, state, '+')}
-          disabled={form.bags >= 5}
-        />
-      </div>
+      <Button
+        id="buttonMinus"
+        text={l10n.MINUS}
+        onClick={() => form.bags >= 0 && managePassenger(dispatch, state, '-')}
+        disabled={form.bags === 0}
+      />
+      <p className={style.text}>{form.bags}</p>
+      <Button
+        id="buttonPlus"
+        text={l10n.PLUS}
+        onClick={() => managePassenger(dispatch, state, '+')}
+        disabled={form.bags >= 5}
+      />
     </div>
   );
 };

@@ -1,22 +1,24 @@
 import React from 'react';
 // import { shape } from 'prop-types';
 import { useStateValue } from 'common/context/contextHooks';
-import { Counter, Button } from '..';
-
+import { Counter, Button, Input } from '..';
 
 import style from './Adder.module.scss';
+
+
+const onSubmit = () => {
+  console.log('onClick')
+}
 
 const Adder = () => {
   const [state] = useStateValue();
   const { l10n } = state;
 
-
   return (
     <div className={style.container}>
       <Counter />
-      <div className={style.input}>
-      </div>
-      <Button text={l10n.ADD} />
+      <Input />
+      <Button text={l10n.ADD} onClick={() => onSubmit()} />
     </div>
   );
 };

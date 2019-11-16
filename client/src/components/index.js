@@ -4,6 +4,7 @@ import Card from './Card';
 import CardList from './CardList';
 import Counter from './Counter';
 import Header from './Header';
+import Input from './Input';
 
 export {
   Adder,
@@ -12,4 +13,5 @@ export {
   CardList,
   Counter,
   Header,
+  Input,
 };
