@@ -6,6 +6,7 @@ import l10n from '../l10n';
 export const StateContext = createContext();
 
 export const initialState = {
+  l10n,
   cards: [],
 };
 

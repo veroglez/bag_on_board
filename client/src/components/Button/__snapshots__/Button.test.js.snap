@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button> renders 1`] = `
+<button
+  className={
+    Array [
+      "button",
+    ]
+  }
+  disabled={false}
+  type="submit"
+>
+  <span />
+</button>
+`;
+
+exports[`<Button> when {disabled} 1`] = `
+<button
+  className={
+    Array [
+      "button",
+    ]
+  }
+  disabled={true}
+  type="submit"
+>
+  <span>
+    Lorem ipsum
+  </span>
+</button>
+`;
+
+exports[`<Button> when {onClick} 1`] = `
+<button
+  className={
+    Array [
+      "button",
+    ]
+  }
+  disabled={false}
+  onClick={[Function]}
+  type="submit"
+>
+  <span>
+    Lorem ipsum
+  </span>
+</button>
+`;
+
+exports[`<Button> when {text} 1`] = `
+<button
+  className={
+    Array [
+      "button",
+    ]
+  }
+  disabled={false}
+  type="submit"
+>
+  <span>
+    Lorem ipsum
+  </span>
+</button>
+`;

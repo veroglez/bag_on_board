@@ -1,5 +1,5 @@
 export default {
-  ADD: 'Añadir',
+  ADD: 'Añadir pasajero',
   QUANTITY: 'Cantidad',
   FINALIZE: 'Finalizar compra',
   TOTAL: 'Total',

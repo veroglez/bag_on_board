@@ -1,0 +1,14 @@
+$breakpoint: (
+  small: 600px,
+);
+
+$color: rgb(232, 63, 64);
+$border: 1px solid #ccc;
+$borderRadius: 8px;
+$font: 'Montserrat';
+
+$spaceM: 20px;
+
+@mixin tablet { // > 601
+  @media (min-width: #{map-get($breakpoint, small)+1}) { @content; }
+}
