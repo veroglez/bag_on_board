@@ -9,6 +9,6 @@ describe('/server:', () => {
     const response = await request.get('/cards');
     done();
     expect(response.statusCode).toBe(200);
-    expect(response.body).toStrictEqual(cardsMock.results);
+    expect(response.body).toStrictEqual(cardsMock);
   });
 });
