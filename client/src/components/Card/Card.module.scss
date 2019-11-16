@@ -1,0 +1,9 @@
+@import '../../common/style.scss';
+
+.container {
+  flex: 1 0 30%;
+  margin: $spaceXXS;
+  padding: $spaceXS;
+  border: $border;
+  border-radius: $borderRadius;
+}

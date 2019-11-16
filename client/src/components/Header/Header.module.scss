@@ -1,8 +1,9 @@
 @import '../../common/style.scss';
 
 .container {
-  padding: $spaceM;
   border-bottom: $border;
   display: 'flex';
   justify-content: 'space-bettwen';
+  margin-bottom: $spaceXS;
+  padding: $spaceM;
 }

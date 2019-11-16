@@ -1,35 +1,19 @@
 import React, {} from 'react';
-import { bool, func, string } from 'prop-types';
 import { useStateValue } from 'common/context/contextHooks';
-
-// import mix from '../../common/mix';
 import { Button } from 'components';
 import styles from './Header.module.scss';
 
+const onClick = () => { window.location = '/new'; };
 
-const Header = ({ disabled, onClick, text, ...inherit }) => {
+const Header = () => {
   const [state] = useStateValue();
   const { l10n } = state;
 
   return (
     <div className={styles.container}>
-      <Button text={l10n.ADD} />
+      <Button text={l10n.ADD} onClick={() => onClick()} />
     </div>
   );
-};
-
-Header.propTypes = {
-  disabled: bool,
-  icon: bool,
-  onClick: func,
-  text: string,
-};
-
-Header.defaultProps = {
-  disabled: false,
-  icon: undefined,
-  onClick: undefined,
-  text: undefined,
 };
 
 export default Header;
