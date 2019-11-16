@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Adder> render 1`] = `
+<form
+  className="container"
+>
+  <div
+    className="container"
+  >
+    <button
+      className="button"
+      disabled={false}
+      id="buttonMinus"
+      onClick={[Function]}
+      type="submit"
+    >
+      <span />
+    </button>
+    <p
+      className="text"
+    >
+      2
+    </p>
+    <button
+      className="button"
+      disabled={false}
+      id="buttonPlus"
+      onClick={[Function]}
+      type="submit"
+    >
+      <span />
+    </button>
+  </div>
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+  <button
+    className="button"
+    disabled={false}
+    id="ButtonForm"
+    onClick={[Function]}
+    type="submit"
+  >
+    <span>
+      add
+    </span>
+  </button>
+</form>
+`;

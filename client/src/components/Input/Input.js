@@ -16,7 +16,6 @@ const Counter = () => {
   return (
     <input
       type="text"
-      name="name"
       value={state.value}
       onChange={event => onChange(event, dispatch, state)}
     />

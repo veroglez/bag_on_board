@@ -2,7 +2,6 @@
 
 exports[`<Input> render 1`] = `
 <input
-  name="name"
   onChange={[Function]}
   type="text"
 />
