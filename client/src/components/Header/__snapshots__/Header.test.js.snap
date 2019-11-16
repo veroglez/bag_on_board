@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> renders 1`] = `
+<div
+  className="container"
+>
+  <button
+    className={
+      Array [
+        "button",
+      ]
+    }
+    disabled={false}
+    type="submit"
+  >
+    <span>
+      add
+    </span>
+  </button>
+</div>
+`;
