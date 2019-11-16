@@ -8,6 +8,10 @@ export const StateContext = createContext();
 export const initialState = {
   l10n,
   cards: [],
+  form: {
+    bags: 0,
+    name: '',
+  },
 };
 
 export const globalReducer = (state, action) => {

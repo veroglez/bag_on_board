@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter> render 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="content"
+  >
+    <button
+      className="button"
+      disabled={false}
+      id="buttonMinus"
+      onClick={[Function]}
+      type="submit"
+    >
+      <span>
+        -
+      </span>
+    </button>
+    <input
+      className="counter"
+      onChange={[Function]}
+      type="number"
+      value={0}
+    />
+    <button
+      className="button"
+      disabled={false}
+      id="buttonPlus"
+      onClick={[Function]}
+      type="submit"
+    >
+      <span>
+        +
+      </span>
+    </button>
+  </div>
+</div>
+`;

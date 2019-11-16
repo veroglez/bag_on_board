@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { arrayOf, shape } from 'prop-types';
 import { Card } from '..';
 import styles from './CardList.module.scss';

@@ -8,18 +8,33 @@ exports[`<App> render 1`] = `
     className="container"
   >
     <button
-      className={
-        Array [
-          "button",
-        ]
-      }
+      className="button"
       disabled={false}
+      onClick={[Function]}
       type="submit"
     >
       <span>
         add
       </span>
     </button>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="container"
+    >
+      <p
+        className="name"
+      >
+        Vero
+      </p>
+      <p
+        className="bags"
+      >
+        3
+      </p>
+    </div>
   </div>
 </div>
 `;

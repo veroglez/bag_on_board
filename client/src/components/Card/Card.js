@@ -16,10 +16,4 @@ Card.propTypes = {
   passenger: shape({}).isRequired,
 };
 
-// Card.defaultProps = {
-//   image: undefined,
-//   index: undefined,
-//   title: undefined,
-// };
-
 export default Card;

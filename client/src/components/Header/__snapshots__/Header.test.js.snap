@@ -5,12 +5,9 @@ exports[`<Header> renders 1`] = `
   className="container"
 >
   <button
-    className={
-      Array [
-        "button",
-      ]
-    }
+    className="button"
     disabled={false}
+    onClick={[Function]}
     type="submit"
   >
     <span>

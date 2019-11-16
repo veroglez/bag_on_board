@@ -2,11 +2,7 @@
 
 exports[`<Button> renders 1`] = `
 <button
-  className={
-    Array [
-      "button",
-    ]
-  }
+  className="button"
   disabled={false}
   type="submit"
 >
@@ -16,11 +12,7 @@ exports[`<Button> renders 1`] = `
 
 exports[`<Button> when {disabled} 1`] = `
 <button
-  className={
-    Array [
-      "button",
-    ]
-  }
+  className="button"
   disabled={true}
   type="submit"
 >
@@ -32,11 +24,7 @@ exports[`<Button> when {disabled} 1`] = `
 
 exports[`<Button> when {onClick} 1`] = `
 <button
-  className={
-    Array [
-      "button",
-    ]
-  }
+  className="button"
   disabled={false}
   onClick={[Function]}
   type="submit"
@@ -49,11 +37,7 @@ exports[`<Button> when {onClick} 1`] = `
 
 exports[`<Button> when {text} 1`] = `
 <button
-  className={
-    Array [
-      "button",
-    ]
-  }
+  className="button"
   disabled={false}
   type="submit"
 >
